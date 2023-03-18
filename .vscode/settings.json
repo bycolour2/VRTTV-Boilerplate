@@ -1,0 +1,18 @@
+{
+  "typescript.preferences.importModuleSpecifier": "non-relative",
+  "eslint.format.enable": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+
+  //File nesting
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.patterns": {
+    "package.json": "package-lock.json, yarn.lock, .stylelintrc, .stylelintignore, .eslintrc, .eslintignore, .prettierrc, .prettierignore, .eslintrc.json, .editorconfig, .lintstagedrc, commitlint.config.cjs, vercel.json",
+    "styles.ts": "variants.ts, keyframes.ts",
+    "index.tsx": "data.ts, utils.ts, data.tsx",
+    "index.ts": "data.ts, utils.ts, data.tsx, interfaces.ts",
+    "tailwind.config.cjs": "postcss.config.js",
+    "vite.config.ts": "babel.config.js, config.js, .nvmrc"
+  }
+}
